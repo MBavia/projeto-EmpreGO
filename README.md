@@ -43,7 +43,7 @@ O projeto EmpreGO é um site criar para otimizar na busca e divulgação de opor
 ![FLASK](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 ## Autores
-- Mariana Meirelles de Campos - [GitHub](https://github.com/marianacamposss/Projeto-EmpreGO.git) - camposmariana3.a@gmail.com
+- Manoela Bavia Camargo Pereira - [GitHub](https://github.com/MBavia/projetoemprego.git) - manoela.bavia.senai@gmail.com
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
