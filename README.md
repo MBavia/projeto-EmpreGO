@@ -6,7 +6,7 @@
 O projeto EmpreGO é um site criar para otimizar na busca e divulgação de oportunidades de emprego. Ele procura facilitar a conexão entre empresas e candidatos, mostrando a visualização e gerenciamento de vagas disponíveis na região.
 
 ## Índice
-* [Tecnologias](#tecnologias-utilizadas)
+- [Tecnologias](#tecnologias-utilizadas)
 - [Status](#status)
 - [Funcionalidades](#funcionalidades)
 - [Autores](#autores)
