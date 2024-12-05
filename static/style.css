@@ -1,0 +1,60 @@
+body{
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: white;
+}
+footer{
+    background-color: black !important;
+    color: white;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-img {
+    max-width: 100%;
+    height: 550px;
+    width: 2100px;
+    margin: 0%;
+}
+/* From Uiverse.io by niat786 */ 
+.botao {
+    border: none;
+    color: black;
+    background-image: linear-gradient(30deg, #d5e8e2, #d5e8e2);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+}
+   
+.botao:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+   
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+}
+   
+70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+}
+   
+100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+}
+}
+

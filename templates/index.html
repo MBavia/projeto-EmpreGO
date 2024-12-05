@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Página Inicial{% endblock %}
+{% block content %}
+    <section class="text-center mb-5">
+        <h2 class="display-4">Bem-vindo à EmpreGO</h2>
+        <p class="lead">Explore oportunidades e dê o próximo passo na sua carreira.</p>
+    </section>
+    <header class="container-fluid header">
+      <img src="../static/img/MG3.png" alt="Logo"" class="header-img">
+  </header>
+  
+    <div class="row text-center">
+        <div class="col">
+            <h3>Encontre sua vaga ideal</h3>
+            <p>Explore as vagas mais recentes.</p>
+            {% if login == 'empresa' %}
+                <a href="/cadastrar_vaga" class="btn btn-success mb-4">Cadastrar Vaga</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+        {% for vaga in vagas %}
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                {% include 'card.html' %}
+            </div>
+        {% endfor %}
+        
+        {% if not vagas %}
+            <div class="col-12">
+                <p class="text-center text-muted">Nenhuma vaga encontrada no momento.</p>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}
